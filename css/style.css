@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+li{
+    display:inline-block;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-left: 190px;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+.logo{
+    position: absolute;
+
+}
+
+.carrito{
+    position: absolute;
+    margin-left: 1730px;
+    margin-top: 40px;
+    width: 80px;
+}
+.seccion{
+    text-decoration: none;
+    color: white;
+}
+.seccion:hover{
+    color: #a558ec; 
+}
+/* hasta aca es el menu de la web*/
+.portada{
+    margin-top: 50px;
+}
+.columnas{
+    color: white;
+    font-size: 25px;
+    padding: 60px;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+.parrafoinicio{
+    color: #a558ec;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+/* hasta aca la portada */
+.conjunto{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    text-decoration:underline;
+    font-family: "Montserrat", sans-serif;
+}
+.fotoconjunto{
+    border-radius: 15px;
+    margin-left: 150px;
+
+}
+.dark{
+    color: white;
+    position: absolute;
+    top: 140% ;
+    left: 15%;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.precioconjunto{
+    color: #a558ec;
+    margin-left: 310px;
+    padding: 15px;
+}
+.fotoconjunto2{
+    margin-left:560px;
+    border-radius: 15px;
+}
+.light{
+    color: white;
+    position: absolute;
+    top: 140% ;
+    left: 70%;
+    font-family: "Montserrat", sans-serif;
+}
+.precioconjunto2{
+    color: #a558ec;
+    margin-left: 1380px;
+    margin-top: -50px;
+}
+.fotoconjunto:hover{
+    border: solid #a558ec 2px;
+}
+.fotoconjunto2:hover{
+    border: solid #a558ec 2px;
+}
+/* aca terminan los conjuntos*/
+footer{
+    color: #706a6a;
+    text-align: center;
+    padding-top: 30px;
+}
+.textofooter{
+    font-size: 20px;
+}
+/* aca termina el footer y la pagina INDEX */
+
+/* empieza pagina PEDIDO */
+
+.seguipedido{
+    color: #fafafaea;
+    padding: 10px;
+    margin-left: 1100px;
+    margin-top: 220px;
+    font-family: "Afacad Flux", sans-serif;
+    text-decoration: underline;
+
+}
+.textopedido{
+    color: #fafafaea;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 750px;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 35px;
+    margin-right: 200px;
+    margin-top: px;
+
+}
+.fotopedido{
+    width: 500px;
+    position: fixed;
+    margin-left: 200px;
+    margin-top:-160px;
+}
+.enlacepedido{
+    text-decoration: none;
+    color: #af22af
+}
+.footerpedido{
+    margin-top: 100px;
+}
+
+/* termina la pagina de PEDIDO*/
+
+/* empieza la pagina de CONTACTO*/
+
+.formulario {
+    width: 700px;
+    margin-left: 1000px;
+    border: 3px #ffbeff solid;
+    color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px; 
+    background-color: #333;
+    position: relative;
+}
+
+.comunicate {
+    color: #af22af;
+    margin-top: 115px;
+}
+
+.form-control {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    position: relative; 
+}
+
+.form-control:hover, .form-control:focus {
+    border: solid 1px #af22af;
+}
+
+/* empieza la pagina de NOSOTROS / Y SIGUE MAS ABAJO */
+.titulonosotros{
+    color: #af22af;
+    text-align: center;
+    margin-top: -670px;
+    font-size: 50px;
+    font-style: italic;
+    display: fixed;
+}
+.videokibua{
+    width: 310px;
+    margin-left: 400px;
+    margin-top: 220px;
+    display: block;
+}
+.parrafonosotros{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 900px;
+    margin-top: -20px;
+    margin-right: 400px;
+    padding: 50px;
+}
+/* barra suscribite a newsletter*/ 
+.barra-contraste {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .barra-contraste h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .barra-contraste p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .barra-contraste input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+  }
+  
+  .barra-contraste button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  
+  .barra-contraste button:hover {
+    background-color: #ccc;
+  }
+  /* aca sigue la pagina NOSOTROS*/
+  .instagram2{
+    margin-top: -450px;
+    margin-left: 280px;
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    position: fixed;
+  }
+.facebook2{
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    position: fixed;
+}
+/* aca esta la ubicacion */
+.barra-contraste {
+    background-color:#333;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .barra-contraste h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #fff;
+
+  }
+  
+  .barra-contraste iframe {
+    width: 100%; 
+    max-width: 600px; 
+    height: 450px;
+  }
+  /* aca empieza la pagina PRODUCTOS */
+  .productos2{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card{
+    margin-top: 70px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    background-color:#db4cdb;
+    border: 1px solid #db4cdb;
+    
+  }
+  .buzo{
+    height: 200px;
+  }
+
+  .rockstar{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.preciorockstar{
+    color: rgb(248, 61, 248);
+    margin-left: 123px;
+    margin-top: 50px;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.masterpiece{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: 69px;
+    margin-top: 19px;
+    position: absolute;
+}
+.preciomasterpiece{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:130px;
+    margin-top: 49px;
+    position: absolute;
+}
+.pantalon1{
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    margin-top: 90px;
+    margin-left: 990px;
+    border-radius: 5px;
+}
+.active1{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: 420px;
+    margin-top: 463px;
+    position: absolute;
+}
+.precioactive{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 420px;
+    margin-top: 519px;
+    position: absolute;
+}
+.zapatillas1{
+    position: absolute;
+    width: 300px;
+    height: 290px;
+    margin-top: 90px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+.denver{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: 120px;
+    margin-top:12px;
+    position: absolute;
+}
+.preciodenver{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 150px;
+    margin-top: 36px;
+    position: absolute;
+}
+.card:hover{
+    opacity: 1;
+    border: 2px gray solid;
+}
+
+.buzo2{
+    position: absolute;
+    width: 300px;
+    margin-left: -1738px;
+    margin-top: 310px;
+    border-radius: 5px;
+}
+.kieeh{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: -1630px;
+    margin-top: 672px;
+    position: absolute;
+}
+.preciokieeh{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1589px;
+    margin-top:700px;
+    position: absolute;
+}
+.remera2{
+    position: absolute;
+    width: 300px;
+    margin-left: -1310px;
+    margin-top: 300px;
+    border-radius: 5px;
+    height: 310px;
+}
+.freres{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left:-1200px;
+    margin-top: 670px;
+    position: absolute;
+}
+.preciofreres{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:-1173px;
+    margin-top: 695px;
+    position: absolute;
+}
+.pantalon2{
+    position: absolute;
+    width: 300px;
+    margin-left: -825px;
+    margin-top: 295px;
+    border-radius: 5px;
+    height: 310px;  
+}
+.vintage{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: -720px;
+    margin-top: 670px;
+    position: absolute;
+}
+.preciovintage{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -685px;
+    margin-top: 697px;
+    position: absolute;
+}
+.zapatillas2{
+    position: absolute;
+    width: 300px;
+    margin-left: -420px;
+    margin-top: 295px;  
+    border-radius: 5px;
+    height: 310px;      
+}
+.peggy{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: -300px;
+    margin-top: 670px;
+    position: absolute;
+}
+.preciopeggy{
+    color: rgb(248, 61, 248);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -280px;
+    margin-top: 697px;
+    position: absolute;
+}
+.footerproducto{
+    margin-top: 500px;
+}
