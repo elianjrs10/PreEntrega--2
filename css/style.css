@@ -142,7 +142,7 @@ footer{
 }
 .fotopedido{
     width: 500px;
-    position: fixed;
+    position: absolute;
     margin-left: 200px;
     margin-top:-160px;
 }
