@@ -491,3 +491,438 @@ footer{
 .footerproducto{
     margin-top: 500px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    header .logo {
+        width: 100px;
+        position: relative;
+        margin: 10px auto;
+        display: block;
+    }
+
+    header .carrito {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 50px;
+        margin-left: 0;
+    }
+
+    header nav li {
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+
+    .mainindex div .columnas {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+
+    .sectionindex .conjunto {
+        padding: 30px 0;
+    }
+
+    .sectionindex .fotoconjunto,
+    .sectionindex .fotoconjunto2 {
+        margin: 20px auto;
+        width: 90%;
+        max-width: 300px;
+        display: block;
+    }
+
+    .sectionindex .dark,
+    .sectionindex .light {
+        position: static;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .sectionindex .precioconjunto,
+    .sectionindex .precioconjunto2 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 15px auto;
+    }
+
+
+    .buzo2,
+    .remera2,
+    .pantalon2,
+    .zapatillas2 {
+        position: static;
+        width: 90%;
+        margin: 15px auto;
+        display: block;
+    }
+
+
+    .rockstar,
+    .masterpiece,
+    .active1,
+    .denver,
+    .freres,
+    .vintage,
+    .peggy,
+    .kieeh,
+    .preciorockstar,
+    .preciomasterpiece,
+    .precioactive,
+    .preciodenver,
+    .preciofreres,
+    .preciovintage,
+    .preciopeggy,
+    .preciokieeh {
+        position: static;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    .titulonosotros {
+        font-size: 32px;
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .parrafonosotros {
+        margin: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .videokibua {
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+
+
+    .formulario {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .instagram2,
+    .facebook2 {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .textoinstagram2,
+    .textofacebook2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+    .seguipedido {
+        margin: 20px auto;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .textopedido {
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fotopedido {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+
+
+    .barra-contraste {
+        padding: 15px;
+    }
+
+    .barra-contraste input[type="email"] {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .barra-contraste button {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+
+    .textofooter {
+        font-size: 14px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .tarjetas {
+        width: 90%;
+        margin: 15px auto;
+        display: block;
+    }
+
+
+    .mb-3 {
+        margin-bottom: 1rem;
+    }
+
+    .p-3 {
+        padding: 1rem;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .col-md-6 {
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    header .logo {
+      width: 80px;
+      margin: 5px auto;
+    }
+  
+    header .carrito {
+      width: 40px;
+      top: 10px;
+      right: 10px;
+    }
+  
+    
+    header nav li {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+  
+    header nav .seccion {
+      padding: 5px 0;
+    }
+  
+    
+    .mainindex div .portada {
+      margin-top: 20px;
+    }
+  
+    .mainindex div .columnas {
+      font-size: 14px;
+      padding: 15px 10px;
+    }
+  
+    .sectionindex .conjunto {
+      font-size: 20px;
+      padding: 20px 0;
+    }
+  
+    .sectionindex .fotoconjunto,
+    .sectionindex .fotoconjunto2 {
+      width: 95%;
+      margin: 15px auto;
+    }
+  
+    .sectionindex .dark,
+    .sectionindex .light {
+      font-size: 18px;
+    }
+  
+    .sectionindex .precioconjunto,
+    .sectionindex .precioconjunto2 {
+      font-size: 16px;
+    }
+  
+    
+    .container {
+      padding: 10px 5px;
+    }
+  
+    .card {
+      width: 95%;
+      height: auto;
+      padding: 10px;
+      margin: 10px auto;
+    }
+  
+    
+    .buzo2, .remera2, .pantalon2, .zapatillas2 {
+      width: 95%;
+      margin: 10px auto;
+    }
+  
+    .rockstar, .masterpiece, .active1, .denver,
+    .freres, .vintage, .peggy, .kieeh {
+      font-size: 16px;
+    }
+  
+    .preciorockstar, .preciomasterpiece, .precioactive,
+    .preciodenver, .preciofreres, .preciovintage,
+    .preciopeggy, .preciokieeh {
+      font-size: 15px;
+    }
+  
+    
+    .titulonosotros {
+      font-size: 24px;
+      margin-top: 15px;
+    }
+  
+    .parrafonosotros {
+      margin: 15px 10px;
+      padding: 10px;
+      font-size: 14px;
+      text-align: left;
+    }
+  
+    .videokibua {
+      width: 95%;
+      margin: 15px auto;
+    }
+  
+    
+    .formulario {
+      width: 95%;
+      margin: 15px auto;
+      padding: 10px;
+    }
+  
+    .form-control {
+      margin-bottom: 8px;
+      padding: 8px;
+    }
+  
+    .instagram2,
+    .facebook2 {
+      width: 95%;
+      margin: 15px auto;
+    }
+  
+    .textoinstagram2,
+    .textofacebook2 {
+      font-size: 16px;
+    }
+  
+    .btn {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    
+    .seguipedido {
+      font-size: 20px;
+      margin: 15px auto;
+      padding: 10px;
+    }
+  
+    .textopedido {
+      margin: 15px 10px;
+      font-size: 16px;
+    }
+  
+    .fotopedido {
+      width: 95%;
+      margin: 15px auto;
+    }
+  
+   
+    .barra-contraste {
+      padding: 10px;
+    }
+  
+    .barra-contraste h2 {
+      font-size: 20px;
+    }
+  
+    .barra-contraste p {
+      font-size: 14px;
+    }
+  
+    .barra-contraste input[type="email"] {
+      width: 95%;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .barra-contraste button {
+      width: 95%;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+   
+    .textofooter {
+      font-size: 12px;
+      padding: 10px;
+    }
+  
+    .tarjetas {
+      width: 95%;
+      margin: 10px auto;
+    }
+  
+   
+    .mb-3 {
+      margin-bottom: 0.75rem !important;
+    }
+  
+    .p-3 {
+      padding: 0.75rem !important;
+    }
+  
+    
+    .col-md-6 {
+      padding: 10px;
+    }
+  
+    .row {
+      margin: 0;
+    }
+  
+    
+    h1, h2, h3 {
+      line-height: 1.3;
+    }
+  
+    p {
+      line-height: 1.4;
+    }
+  
+   
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  
+   
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
